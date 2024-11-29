@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.pink.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet">
+    <style>
+      h1 {
+        --pico-font-family: EB Garamond, Times New Roman, serif;
+        --pico-font-weight: 800;
+      }
+      #heading {
+        font-size: 78px;
+      }
+    </style>
+    <title>Hello world!</title>
+  </head>
+  <body>
+      <header class="container">
+        <h1 id="heading">2025 Anarchist Communist Forum</h1>
+        <hr/>
+      </header>
+    <main class="container">
+      <section>
+        <div>
+          <p>Copy goes here</p>
+          <p>It'll be like serif and kinda like this. Someone else will write it later too, it won't be Mel that's for sure.</p>
+          <p>I reckon we should say something like, idk, 'anarchy conf is happening in melbourne! wow! you should come! we will open at 7am and finish at 3pm (because anarchism requires dicipline ) and will probably have like, some workshops and stuff on workplace organising (but definitely nothing cringe.). Please register your attendance maybe??? i can put a form below.'</p>
+          <p>We are also going to maybe take submissions for having workshops? are we? idk. but if we are, you should tell Mel so she can put that on the website yeah?</p>
+          <p> anyway the copy will be about this long, does that seem about right?</p>
+        </div>
+      </section>
+      <hr/>
+      <section>
+        <div>
+          <h2>THE FORM</h2>
+          <p>This will be the form, with a brief explanation.</p>
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c">
+            <input type="name" name="name" placeholder="Name" aria-label="Name">
+            <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email">
+            <input type="tel" name="tel" placeholder="Tel" aria-label="Tel" autocomplete="tel">
+            <textarea type="message" name="message" placeholder="Write us anything here..." aria-label="message to organisers" ></textarea>
+            <!-- Specify @ as reply to value if you want it to be customers email -->
+            <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+            <!-- If you want form to redirect to a specific url after submission -->
+            <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      <div>This website was made on the lands of the Jagera People and the conference will be hosted in the Kulin Nations, sovereignty was never ceded across the entirety of Australia.</div>
+    </footer>
+  </body>
+</html>
